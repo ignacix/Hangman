@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>SAVE MY FRIEND</h1>
+    </div>
+    <div id="background">
+        <img id="imagen" src="resources/1.jpeg" alt="imagen de fondo">
+        
+        
+        
+        <div id="botonera">
+            <button id="btn" onclick="changeImage()">Play</button>
+        </div>
+        <div id="botonera2">
+            <p>Remaining Attempts: <span id="attempts">6</span></p>
+            <p>Secret Word: <span id="word-display">_ _ _ _ _</span></p>
+            <p>letters: <span id="guessed-letters"></span></p>
+            <input type="text" id="guess" placeholder="Guess the letter">
+            <button onclick="guessLetter()">Guess</button>
+        </div>
+    </div>
+
+    <script src="index.js" ></script>
+</body>
+</html>

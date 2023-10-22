@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; 
+}
+
+h1{
+    color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body{
+    background-image: url(resources/cortina.avif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#background{
+    width: 700px;
+    height: 550px;
+    background-size: cover;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+#botonera{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+#botonera2{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#botonera2 button{
+    width: 80px;
+    height: 30px;
+}
+
+#botonera button{
+    width: 80px;
+    height: 30px;
+}
